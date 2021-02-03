@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .calculator{
+     border: 2px solid black;
+     width: fit-content;
+     padding: 10px 10px;
+     
+ }
+ button{
+     padding: 20px 40px;
+     margin: 2px 2px;
+     transition: all .3s ease;
+     font-size: 1.2rem;
+     font-weight: bolder;
+     
+ }
+
+button:hover{
+    background-color: gray;
+    color: white;
+}
+ .screen{
+     border: 2px solid black;
+     height: 60px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+ }
